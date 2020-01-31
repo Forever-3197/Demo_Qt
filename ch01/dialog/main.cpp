@@ -1,11 +1,11 @@
-#include "dialog.h"
+#include "dialog.h"                 //(a)
 
-#include <QApplication>
+#include <QApplication>             //(b)
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[])    //(c)
 {
-    QApplication a(argc, argv);
-    Dialog w;
-    w.show();
-    return a.exec();
+    QApplication a(argc, argv);     //(d)
+    Dialog w;                       //(e)
+    w.show();                       //(f)
+    return a.exec();                //(g)
 }

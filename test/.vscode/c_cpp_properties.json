@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtCore",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtGui",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtGui",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets"
+            ],
+            "browse": {
+            "path": [
+                "${workspaceFolder}/**",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtCore",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtGui",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtGui",
+                "/opt/Qt5.14.0/5.14.0/gcc_64/include/QtWidgets"
+                ]
+            },
+            "compilerPath": "/usr/bin/gcc-7",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
